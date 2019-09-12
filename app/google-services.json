@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "394401295090",
+    "firebase_url": "https://vaialmocar.firebaseio.com",
+    "project_id": "vaialmocar",
+    "storage_bucket": "vaialmocar.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:394401295090:android:9fbbd7e0368b04dfa5be6b",
+        "android_client_info": {
+          "package_name": "com.example.pad_3d_list"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "394401295090-9hoeaa203elduusaqqd60kpjk4be06r5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBY4uSnt0nUwYhoC-a17Na7R-egY8MJWiU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "394401295090-9hoeaa203elduusaqqd60kpjk4be06r5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

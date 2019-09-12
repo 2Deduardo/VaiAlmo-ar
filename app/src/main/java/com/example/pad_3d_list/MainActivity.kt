@@ -1,10 +1,13 @@
 package com.example.pad_3d_list
 
-import android.support.v7.app.AppCompatActivity
+
 import android.os.Bundle
-import android.support.v7.widget.LinearLayoutManager
-import android.support.v7.widget.RecyclerView
 import android.widget.LinearLayout
+
+
+import androidx.appcompat.app.AppCompatActivity
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 
 class MainActivity : AppCompatActivity() {
 
@@ -14,7 +17,7 @@ class MainActivity : AppCompatActivity() {
 
         val recycleView = findViewById(R.id.recyclerView) as RecyclerView
 
-        recycleView.layoutManager = LinearLayoutManager(this, LinearLayout.VERTICAL, false)
+        recycleView.layoutManager = LinearLayoutManager(this, RecyclerView.VERTICAL, false)
 
         val users = ArrayList<User>()
         users.add(User("Dom Quixote", "Miguel de Cervantes"))
